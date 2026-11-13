@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>プライバシーポリシー｜個人監視ツール</title><style>body{max-width:760px;margin:48px auto;padding:0 24px;font:17px/1.9 system-ui,sans-serif;color:#243041;background:#fafbfc}h1{font-size:30px}h2{font-size:21px;margin-top:32px}a{color:#165bb5}footer{margin-top:44px;border-top:1px solid #ddd;padding-top:16px;font-size:14px}</style></head><body><main><h1>プライバシーポリシー</h1><p>対象：個人監視ツール<br>作成日：2026年11月14日</p>
+<h2>利用目的と対象</h2><p>本ツールは運営者本人の情報整理と通知のための個人専用ツールです。本人のGoogleアカウントで承認されたデータを、その機能提供と動作確認のために利用します。</p>
+<h2>扱う情報</h2><ul><li>本人確認のためのGoogleアカウントのメールアドレス。</li><li>本人が利用するGoogleスプレッドシート内の監視条件・掲載記録。</li><li>専用Google Driveフォルダ内に本ツールが作成した結果、本人が本ツールに選択して許可したファイル・フォルダの情報。</li><li>本人宛通知の件名・本文・送信結果ID。</li><li>公開物件ページから取得した情報と観測日時。</li><li>Google APIへの接続に必要な認証情報。</li></ul>
+<h2>権限と用途</h2><p>Googleスプレッドシートは読み取り専用で利用します。Drive連携はdrive.fileスコープを使用し、指定の保存先へ新しい結果を作成する用途です。Gmail APIの送信権限は本人宛通知に使用し、受信メールを読み取る権限は本ツールの認証では要求していません。API権限の技術上の範囲に加え、コードで宛先と参照先を制限します。</p>
+<h2>処理・保管</h2><p>データは本人のMacまたはGitHub Actionsの実行環境で処理します。継続運用時の結果保存先は本人の専用Google Driveフォルダを予定しています。試験中のデータはローカルの非公開領域や実行環境内に保持する場合があります。</p>
+<p>認証情報はローカルのアクセス制限されたファイルとGitHub Actionsの暗号化Secretで管理します。認証情報や台帳本文をGitのコード・公開ページ・公開成果物に記載しません。実行ログには動作結果や件数、保存・送信結果IDが含まれることがあります。</p>
+<h2>第三者への提供とAI</h2><p>GoogleおよびGitHubは本人が利用する連携・実行基盤です。Google連携を通じて取得した利用者データを販売したり、広告目的で利用したりしません。本ツールの実行に、生成AI APIへの自動送信や汎用AIモデルの学習利用は組み込んでいません。本人が別途AIへ提示する操作は、そのサービス側の設定と方針に従います。</p>
+<h2>保持・アクセス停止・削除</h2><p>実行履歴は前回比較と監査のため保持し、自動一律削除は行っていません。本人はGoogleアカウントの接続済みアプリから権限を取り消せます。権限の取消だけでは保存済みの履歴は削除されません。履歴や認証情報の削除が必要な場合は、本人が保存先ごとに確認し、明示的に削除を指示または実施します。</p>
+<h2>お問い合わせ・変更</h2><p>お問い合わせ先はGoogle OAuth同意画面に表示されるユーザーサポートメールです。扱う情報や目的を変更する場合は、本人が確認したうえで本文を更新します。</p><p><a href="index.html">ツールの説明へ戻る</a></p></main><footer>個人監視ツール</footer></body></html>
